@@ -1,11 +1,11 @@
 import Navbar from "./Components/navbar";
 import HomePage from "./Pages/homePage";
 import { BrowserRouter , Route , Routes } from "react-router";
+import Footer from "./Components/footer";
 
 function App(){
   return(
     <>
-    
     <nav>
       <Navbar/>
     </nav>
@@ -15,6 +15,8 @@ function App(){
         <Route path="/" element={<HomePage/>}></Route>
       </Routes>
     </BrowserRouter>
+
+    <Footer/>
 
     </>
   )
