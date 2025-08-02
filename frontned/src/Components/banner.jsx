@@ -1,7 +1,7 @@
 function Banner(){
     return(
         <>
-        <div className="px-10 mt-30 ">
+        <div className=" mt-30 ">
                 <div className="border-b-4 border-[#6BD126] px-7 rounded-2xl">
                     {/* heading */}
                     <div className="flex justify-between  relative max-sm:flex-col-reverse">
